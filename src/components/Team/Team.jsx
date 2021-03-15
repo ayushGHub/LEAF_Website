@@ -1,6 +1,7 @@
 import TeamMember1 from '../../images/Dhruv.jpg';
 import TeamMember2 from '../../images/Gauri.jpeg';
 import TeamMember3 from '../../images/Vipul.jpeg';
+import TeamMember4 from '../../images/Pooja.jpeg';
 import './Team.css';
 
 const teamDetails = [
@@ -18,10 +19,15 @@ const teamDetails = [
     memberName: 'Dhruv',
     title: 'Team Member',
     imageUrl: TeamMember1,
-  }
+  },
+  {
+    memberName: 'Pooja',
+    title: 'Team Member',
+    imageUrl: TeamMember4,
+  },
 ];
 const Team = () => {
-  const teamData = ['Our Executives', 'Our Volunteers'];
+  const teamData = ['Team Members'];
   return (
     <section id='team'>
       <div className='content-box-lg'>
