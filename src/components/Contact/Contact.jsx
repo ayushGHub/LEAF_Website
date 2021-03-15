@@ -62,22 +62,38 @@ const Contact = () => {
 
                 <ul className='social-list'>
                   <li>
-                    <a href='https://www.google.com/' target="_blank" rel="noreferrer">
+                    <a
+                      href='https://www.google.com/'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
                       <i className='fab fa-facebook-f'></i>
                     </a>
                   </li>
                   <li>
-                    <a href='https://www.google.com/' target="_blank" rel="noreferrer">
+                    <a
+                      href='https://www.google.com/'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
                       <i className='fab fa-twitter'></i>
                     </a>
                   </li>
                   <li>
-                    <a href='https://www.google.com/' target="_blank" rel="noreferrer">
+                    <a
+                      href='https://www.google.com/'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
                       <i className='fab fa-google-plus-g'></i>
                     </a>
                   </li>
                   <li>
-                    <a href='https://www.google.com/' target="_blank" rel="noreferrer">
+                    <a
+                      href='https://www.google.com/'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
                       <i className='fab fa-linkedin-in'></i>
                     </a>
                   </li>
@@ -86,7 +102,7 @@ const Contact = () => {
             </div>
             <div className='col-md-6 mt-5'>
               <div id='contact-right'>
-                <form action='https://formspree.io/xyybgywk' method='POST'>
+                <form action='https://formspree.io/f/mgepgran' method='POST'>
                   <h4>Send Message</h4>
                   <p></p>
                   <div className='row'>
