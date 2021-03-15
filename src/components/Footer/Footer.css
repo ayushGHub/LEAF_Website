@@ -1,0 +1,17 @@
+footer {
+  background: #113448;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+}
+
+footer p {
+  color: #fff;
+  line-height: 20px;
+  margin: 0;
+}
+
+footer p span {
+  color: #fff;
+}

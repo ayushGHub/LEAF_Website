@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.content-box-lg {
+  padding: 20px 0;
+}
+
+.content-box-md {
+  padding: 20px 0;
+}
+
+.content-box-sm {
+  padding: 20px 0;
+}
+
+/* Responsive */
+
+/* Small Devices (Portrait Tablets & Small Desktops) */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Generic */
+    #about-left{
+      display: block;
+    }
+    .vertical-heading h5{
+      display: block;
+      text-align: center;
+      position: static;
+      transform: none;
+    }
+    .vertical-heading {
+      display: block;
+      text-align: center;
+    }
+    .vertical-heading h2 {
+        font-size: 29px;
+        display: block;
+        text-align: center;
+        position: static;
+        transform: none;
+    }
+}
+
+
+/* Extra Small Devices (Landscape Phones & Portrait Tablets) */
+
+@media (max-width: 767px) {
+    /* Generic */
+    #about-left{
+      display: block;
+    }
+    .vertical-heading h5{
+      display: block;
+      text-align: center;
+      position: static;
+      transform: none;
+    }
+    .vertical-heading {
+      display: block;
+      text-align: center;
+    }
+    .vertical-heading h2 {
+        font-size: 29px;
+        display: block;
+        text-align: center;
+        position: static;
+        transform: none;
+    }
+}
+
+
+/* Extra Small Devices (Portrait Phones & Smaller Devices) */
+
+@media (max-width: 320px) {
+    /* Generic */
+    #about-left{
+      display: block;
+    }
+    .vertical-heading h5{
+      display: block;
+      text-align: center;
+      position: static;
+      transform: none;
+    }
+    .vertical-heading {
+      display: block;
+      text-align: center;
+    }
+    .vertical-heading h2 {
+        font-size: 29px;
+        display: block;
+        text-align: center;
+        position: static;
+        transform: none;
+    }
+}

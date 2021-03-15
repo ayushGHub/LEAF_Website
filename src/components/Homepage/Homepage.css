@@ -1,0 +1,93 @@
+#home {
+  background: none;
+  height: 95vh;
+}
+
+.home__bg__image {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100%;
+  min-height: 95vh;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  background-size: cover;
+}
+
+.home__content__overlay {
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100vw;
+  min-height: 95vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.home__content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.home__content__inner__heading {
+  text-align: center;
+}
+
+.home__content__inner__heading__typewriter__effect{
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+.home__content__inner__heading h1 {
+  color: #fff;
+  font-size: 65px;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin: 0;
+  display: inline-block;
+}
+
+.home__content__inner__heading h1 span {
+  color: #14bf98;
+  font-weight: 500;
+}
+
+.btn-general {
+  border-radius: 28px;
+  font-size: 13px;
+  text-transform: uppercase;
+  margin: 0 6px;
+  padding: 12px 46px 12px 46px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.btn-home {
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.btn-home:hover,
+.btn-home:focus {
+  color: #fff;
+  background-color: #14bf98;
+  border: 1px solid #14bf98;
+}
+
+
+@media screen and (max-width: 768px){
+  .home__content__inner__heading h1 {
+    font-size: 50px;
+  }
+  .btn-general, .btn-home{
+    padding: 12px 25px !important;
+  }
+}

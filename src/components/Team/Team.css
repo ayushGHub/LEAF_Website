@@ -1,0 +1,25 @@
+#team {
+  min-height: 95vh;
+  padding-top: 73px;
+}
+#team-left .vertical-heading {
+  min-height: 160px;
+}
+
+.team__member__image{
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.team__member__main__container{
+  display: flex;
+  gap: 1rem;
+}
+
+.team__member__container{
+  width: 300px;
+  height: 300px;
+  padding: 1.5rem;
+}

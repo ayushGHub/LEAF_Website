@@ -1,0 +1,80 @@
+#about {
+  text-align: justify;
+  min-height: 95vh;
+  padding-top: 92px;
+  font-size: 1rem;
+}
+.about__content__heading {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.about__content__subheading {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #484a46;
+}
+.about__content__testimonial {
+  font-style: italic;
+}
+.about__content__cofounder {
+  font-weight: 600;
+}
+.about__content__banner{
+    width: 100%;
+}
+.about__content__banner__image{
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+
+.vertical-heading{
+  position: relative;
+}
+.vertical-heading h5 {
+  color: #14bf98;
+  font-size: 14px;
+  text-transform: uppercase;
+  word-spacing: 9px;
+  display: inline-block;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  position: absolute;
+  top: 60px;
+  left: -53px;
+}
+
+.vertical-heading h2 {
+  position: absolute;
+  top: 24px;
+  left: 25px;
+  text-align: left;
+}
+
+.horizontal-heading h2,
+.vertical-heading h2 {
+  font-size: 42px;
+  font-weight: 100;
+  line-height: 45px;
+}
+
+.horizontal-heading {
+  margin-bottom: 80px;
+}
+
+.horizontal-heading h5 {
+  font-size: 16px;
+  color: #14bf98;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.horizontal-heading h2 {
+  margin: 0;
+}
+
+.about-right-cofounder{
+  font-weight: 600;
+}
