@@ -1,3 +1,4 @@
+import TeamMember0 from '../../images/Ayush.jpeg';
 import TeamMember1 from '../../images/Dhruv.jpg';
 import TeamMember2 from '../../images/Gauri.jpeg';
 import TeamMember3 from '../../images/Vipul.jpeg';
@@ -5,6 +6,11 @@ import TeamMember4 from '../../images/Pooja.jpeg';
 import './Team.css';
 
 const teamDetails = [
+  {
+    memberName: 'Dr. Ayush Kumar',
+    title: 'Team Member',
+    imageUrl: TeamMember0,
+  },
   {
     memberName: 'Vipul',
     title: 'Team Member',
