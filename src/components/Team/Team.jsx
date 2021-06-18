@@ -1,8 +1,8 @@
 import TeamMember0 from '../../images/Ayush.jpeg';
-import TeamMember1 from '../../images/Dhruv.jpg';
-import TeamMember2 from '../../images/Gauri.jpeg';
-import TeamMember3 from '../../images/Vipul.jpeg';
-import TeamMember4 from '../../images/Pooja.jpeg';
+import TeamMember4 from '../../images/Dhruv.jpg';
+import TeamMember3 from '../../images/Gauri.jpeg';
+import TeamMember2 from '../../images/Vipul.jpeg';
+import TeamMember1 from '../../images/Pooja.jpeg';
 import { AiFillLinkedin } from 'react-icons/ai';
 import './Team.css';
 
@@ -11,31 +11,31 @@ const teamDetails = [
     memberName: 'Dr. Ayush Kumar',
     title: 'Team Member',
     imageUrl: TeamMember0,
-    linkedinUrl: 'https://www.linkedin.com/in/aykumar1/'
+    linkedinUrl: 'https://www.linkedin.com/in/aykumar1/',
+  },
+  {
+    memberName: 'Pooja',
+    title: 'Team Member',
+    imageUrl: TeamMember1,
+    linkedinUrl: 'https://www.linkedin.com/in',
   },
   {
     memberName: 'Vipul',
     title: 'Team Member',
-    imageUrl: TeamMember3,
-    linkedinUrl: 'https://www.linkedin.com/in/vipulkhandelwal1605/'
+    imageUrl: TeamMember2,
+    linkedinUrl: 'https://www.linkedin.com/in/vipulkhandelwal1605/',
   },
   {
     memberName: 'Gauri',
     title: 'Team Member',
-    imageUrl: TeamMember2,
+    imageUrl: TeamMember3,
     linkedinUrl: 'https://www.linkedin.com/in/gauri-singh-1376211a4/',
   },
   {
     memberName: 'Dhruv',
     title: 'Team Member',
-    imageUrl: TeamMember1,
-    linkedinUrl: 'https://www.linkedin.com/in/dhruvgupta14/',
-  },
-  {
-    memberName: 'Pooja',
-    title: 'Team Member',
     imageUrl: TeamMember4,
-    linkedinUrl: 'https://www.linkedin.com/in',
+    linkedinUrl: 'https://www.linkedin.com/in/dhruvgupta14/',
   },
 ];
 const Team = () => {

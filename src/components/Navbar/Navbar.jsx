@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useHistory } from 'react-router-dom';
-import Logo from '../../images/logo.svg';
+// import Logo from '../../images/logo.svg';
+import Logo from '../../images/logo7.png';
 import './Navbar.css';
 
 const Navbar = () => {

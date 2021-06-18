@@ -1,25 +1,10 @@
-import { useEffect, useRef } from 'react';
+
 import Poster from '../../images/home_bg.jpeg';
 import { Link } from 'react-router-dom';
 import Typewriter from 'typewriter-effect';
 import './Homepage.css';
 
 const Homepage = () => {
-  const form = useRef(null);
-
-  useEffect(() => {
-    const script = document.createElement('script');
-    script.src = 'https://checkout.razorpay.com/v1/payment-button.js';
-    script.setAttribute('data-payment_button_id', 'pl_G8bIDza4zHQRfm');
-    script.async = true;
-    const formCurr = form.current;
-    formCurr.appendChild(script);
-
-    return () => {
-      formCurr.removeChild(script);
-    };
-  }, []);
-
   return (
     <section id='home'>
       <img className='home__bg__image' src={Poster} alt='poster' />
@@ -52,9 +37,11 @@ const Homepage = () => {
                 Explore More
               </button>
             </Link>
-            <div className='donatenow__button mt-3 ml-2'>
-              <form ref={form}></form>
-            </div>
+            <Link to='/payments'>
+              <button type='button' className='btn btn-general btn-home mt-3'>
+                Donate Now
+              </button>
+            </Link>
           </div>
         </div>
       </div>
