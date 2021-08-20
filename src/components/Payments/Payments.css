@@ -1,0 +1,9 @@
+.payments__page{
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.donatenow__button{
+    border: 1px solid rgb(25, 25, 119);
+}

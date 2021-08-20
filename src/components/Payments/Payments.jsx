@@ -1,4 +1,5 @@
 import { useRef, useEffect } from 'react';
+import './Payments.css';
 
 const Payments = () => {
   const form = useRef(null);
@@ -16,8 +17,8 @@ const Payments = () => {
   }, []);
 
   return (
-    <div>
-      <div className='donatenow__button mt-3 ml-2'>
+    <div className="payments__page">
+      <div className='donatenow__button'>
         <form ref={form}></form>
       </div>
     </div>
